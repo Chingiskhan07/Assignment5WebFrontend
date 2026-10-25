@@ -16,13 +16,13 @@ Student and 2006 are example profile values. Change them in script.js or update 
 
 The const object userProfile contains a string name, a number birthYear, a boolean isDeveloper and an array hobbies. The object is also logged to the browser console.
 
-Screenshot: screenshots/task1.png
+Screenshot: ![screenshots/task1.png](screenshots/task1.png)
 
 ### Task 2 Arithmetic calculations
 
 The current year is obtained with new Date().getFullYear(). Age is calculated as current year minus birth year. The additional metric is the number of hobbies, obtained with hobbies.length. Both values appear on the page.
 
-Screenshot: screenshots/task2.png
+Screenshot: ![screenshots/task2.png](screenshots/task2.png)
 
 ## Part 2
 
@@ -30,13 +30,13 @@ Screenshot: screenshots/task2.png
 
 The form contains Username and Birth Year inputs and a Create / Update Profile button.
 
-Screenshot: screenshots/task3.png
+Screenshot: ![screenshots/task3.png](screenshots/task3.png)
 
 ### Task 4 Event listener
 
 A submit listener reads the inputs and updates userProfile. preventDefault() keeps the page from reloading. Number() converts the birth year to a number. The profile text becomes green after an update.
 
-Screenshot: screenshots/task4.png
+Screenshot: ![screenshots/task4.png](screenshots/task4.png)
 
 ## Part 3
 
@@ -44,7 +44,7 @@ Screenshot: screenshots/task4.png
 
 Add Item adds a nonempty hobby to the array and creates a new li element. Remove Item removes the last li and the last hobby from the array. The hobby count stays synchronized with the list. Removing an item from an empty list does not cause an error.
 
-Screenshot: screenshots/task5.png 
+Screenshot: ![screenshots/task5.png ](screenshots/task5.png)
 
 ## Work process
 
